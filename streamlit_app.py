@@ -56,7 +56,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(mess
 logger = logging.getLogger("app")
 
 # Nombres que aparecerán en la interfaz (necesario para las capturas).
-AUTORES = Andrés Córdoba, Mykola Peredrii
+AUTORES = "Andrés Córdoba, Mykola Peredrii"
 
 # TODO 0 (apartado a): URL pública de tu API en Render (sin barra final).
 # Por defecto la app usa la API en local. Antes de desplegar en Render,
