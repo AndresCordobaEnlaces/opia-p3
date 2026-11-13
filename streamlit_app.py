@@ -56,14 +56,14 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(mess
 logger = logging.getLogger("app")
 
 # Nombres que aparecerán en la interfaz (necesario para las capturas).
-AUTORES = "<nombre1>, <nombre2>"
+AUTORES = Andrés Córdoba, Mykola Peredrii
 
 # TODO 0 (apartado a): URL pública de tu API en Render (sin barra final).
 # Por defecto la app usa la API en local. Antes de desplegar en Render,
 # sustituye <tu-servicio-api> por el nombre de tu servicio, comenta la línea
 # de localhost y descomenta la de Render: es la que usará la app desplegada.
-API_URL = "http://localhost:8000"
-# API_URL = "https://<tu-servicio-api>.onrender.com"
+# API_URL = "http://localhost:8000"
+API_URL = "https://cordoba-p3-api.onrender.com"
 # Segundos de espera. Con dos servicios dormidos en Render (la API y esta app),
 # el arranque en frío puede tardar más de un minuto.
 TIMEOUT = 90
